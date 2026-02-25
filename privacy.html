@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MorseLight — Privacy Policy</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital@0;1&family=DM+Sans:wght@300;400;600&display=swap');
+  :root {
+    --bg: #0D1117; --surface: #111823; --accent: #00C8FF;
+    --text: #E0E6F0; --muted: #6B7A90; --border: #1E2D3D;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg); color: var(--text);
+    font-family: 'DM Sans', sans-serif; font-weight: 300;
+    line-height: 1.8; padding: 0 20px;
+  }
+  header {
+    border-bottom: 1px solid var(--border);
+    padding: 40px 0 32px;
+    max-width: 720px; margin: 0 auto;
+    display: flex; align-items: center; gap: 16px;
+  }
+  .logo {
+    width: 48px; height: 48px;
+    background: var(--accent); border-radius: 12px;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'DM Mono', monospace; font-size: 20px; color: var(--bg);
+    flex-shrink: 0;
+  }
+  header h1 { font-size: 22px; font-weight: 600; color: #fff; }
+  header p  { font-size: 13px; color: var(--muted); margin-top: 2px; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 0 80px; }
+  .badge {
+    display: inline-block;
+    background: var(--surface); border: 1px solid var(--border);
+    color: var(--accent); font-family: 'DM Mono', monospace;
+    font-size: 11px; padding: 4px 12px; border-radius: 4px;
+    margin-bottom: 40px; letter-spacing: 0.05em;
+  }
+  h2 {
+    font-size: 13px; font-weight: 600; letter-spacing: 0.12em;
+    text-transform: uppercase; color: var(--accent);
+    margin: 40px 0 14px;
+  }
+  p, li { font-size: 15px; color: #B0BAC8; }
+  ul { padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  .highlight {
+    background: var(--surface); border-left: 3px solid var(--accent);
+    padding: 16px 20px; border-radius: 0 8px 8px 0;
+    margin: 20px 0; font-size: 15px; color: var(--text);
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  footer {
+    border-top: 1px solid var(--border); padding: 32px 0;
+    max-width: 720px; margin: 0 auto;
+    font-size: 13px; color: var(--muted);
+    font-family: 'DM Mono', monospace;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">−·</div>
+  <div>
+    <h1>MorseLight</h1>
+    <p>Privacy Policy</p>
+  </div>
+</header>
+
+<main>
+  <div class="badge">Last updated: February 2026</div>
+
+  <div class="highlight">
+    MorseLight does not collect, store, or transmit any personal data.
+    Everything stays on your device.
+  </div>
+
+  <h2>01 — What we collect</h2>
+  <p>We collect <strong style="color:#fff">nothing</strong>. MorseLight operates entirely offline. No account is required. No data leaves your device.</p>
+
+  <h2>02 — Data stored on your device</h2>
+  <p>The app stores the following locally, using Android SharedPreferences:</p>
+  <ul>
+    <li>Purchase status (which language packs you have unlocked)</li>
+    <li>User preferences (speed, sound, theme settings)</li>
+    <li>Encoding / decoding history (stored only on-device, clearable in Settings)</li>
+  </ul>
+  <p style="margin-top:12px">This data never leaves your device and is not accessible to us.</p>
+
+  <h2>03 — In-app purchases</h2>
+  <p>Purchases are processed entirely by <strong style="color:#fff">Google Play</strong>. We do not handle or store any payment information. Google's privacy policy applies to all payment transactions: <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a></p>
+
+  <h2>04 — Permissions</h2>
+  <ul>
+    <li><strong style="color:#fff">Camera</strong> — used only for optical Morse code reception (flash detection). No images are stored or transmitted.</li>
+    <li><strong style="color:#fff">Flashlight (FLASH)</strong> — used to transmit Morse code signals via the LED flash.</li>
+    <li><strong style="color:#fff">Microphone</strong> — used only for audio Morse code reception. No audio is recorded or stored.</li>
+    <li><strong style="color:#fff">Vibration</strong> — used for haptic Morse output.</li>
+  </ul>
+
+  <h2>05 — Third-party services</h2>
+  <p>MorseLight does not use any analytics, advertising, or crash reporting SDKs. There are no third-party SDKs other than Google Play Billing.</p>
+
+  <h2>06 — Children</h2>
+  <p>MorseLight does not knowingly collect data from anyone, including children under 13. The app contains no advertising and no data collection.</p>
+
+  <h2>07 — Changes to this policy</h2>
+  <p>If we ever add features that require data handling, we will update this page and notify users via the app store listing. The "Last updated" date above will reflect any changes.</p>
+
+  <h2>08 — Contact</h2>
+  <p>Questions about this policy? Open an issue on our GitHub repository or contact us at the email listed on the Google Play store page.</p>
+</main>
+
+<footer>
+  © 2026 MorseLight · No tracking · No ads · No accounts
+</footer>
+
+</body>
+</html>
